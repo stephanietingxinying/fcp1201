@@ -1,0 +1,190 @@
+*{
+    box-sizing: border-box;
+}
+
+#heroroad{
+    background-image: url("images/heroroad.jpg");
+    background-size: 150%;
+    height: 250px;
+}
+
+#heromugs{
+    background-image: url("images/heromugs.jpg");
+    background-size: 150%;
+    height: 250px;
+}
+
+#heroguitar{
+    background-image: url("images/heroguitar.jpg");
+    background-size: 150%;
+    height: 250px;
+}
+
+#herojobs{
+    background-image: url("images/herojobs.jpg");
+    background-size: 150%;
+    height: 250px;
+}
+
+body{ /*element selector*/
+    background-color /*property declaration*/: #FCEBB6;
+    color: #221811; /*color declaration*/;
+    font-family: Verdana,Arial,sans-serif;
+    background-image: url("images/background.gif");
+}
+
+header{
+    background-color:#D2B48C;
+    /*text-align: center;*/
+    height:150px;
+    background-image: url("images/javajamlogo.jpg");
+    background-repeat: no-repeat ;
+    display: block;
+}
+
+h1 {
+    /*line-height: 200%;. /*line spacing.200%-double spacing*/
+    padding-top: 45px;
+    padding-left: 220px;
+    font-size: 3em;
+}
+
+nav a{
+    text-decoration: none;
+}
+
+nav a:link{
+    color: #FEF6C2;
+}
+
+nav a:visited{
+    color: #d2b48c;
+}
+
+nav a:hover{
+    color: #cc9933;
+}
+
+nav ul{
+    list-style-type: none;
+    padding-left: 0em;
+}
+
+nav{
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    padding-top: 10px;
+    float: left;
+    width: 200px;
+    display: block;
+}
+
+footer{
+    background-color: #D2B48C;
+    font-size: .60em;
+    font-style: italic;
+    text-align: center;
+    padding-bottom: 10px;
+    border-top: 2px solid #221811;
+    display: block;
+}
+
+#wrapper{
+    width:80%;
+    margin-right:auto;
+    margin-left: auto;
+    background-color: #231814;
+    min-width: 900px;
+    max-width:1200px;
+    box-shadow:  10px 10px 10px  #333333;
+}
+
+h4{
+    background-color: #d2b48c;
+    font-size: 1.2em;
+    padding-left: .5em; ;
+    padding-bottom: .25em;
+    text-transform: uppercase;
+    border-bottom: 2px solid #231814;
+    padding-bottom: 0em;
+    clear: left;
+}
+
+main{
+    padding: 0em 2em 2em 2em; /*short hand version */
+    padding-top: 0em;
+    padding-left: 0em;
+    padding-bottom: 2em;
+    padding-bottom: 0em;
+    margin-left: 200px;
+    background-color: #fef6c2 ;
+    display: block;
+}
+
+main h2,main h3,main h4,main p,main div,main ul,main dl{
+    padding-left: 3em;
+    padding-right: 2em;
+}
+
+main h3{
+    padding-left: 3em;
+    padding-right: 2em;
+}
+
+.details{
+    padding-left: 20%;
+    padding-right: 20%;
+    overflow: auto;
+}
+
+img{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.floatleft{
+    float: left;
+    padding-right: 2em;
+    padding-left: 2em;
+}
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ffffcc;
+    border-spacing: 0;
+    width: 90%;
+}
+
+td,th{
+    padding: 10px;
+}
+
+tr:nth-last-of-type(odd){
+    background-color: #d2b48e;
+}
+
+form{
+    padding:2em;
+}
+
+label{
+    float:left;
+    display: block;
+    text-align: right;
+    width: 8em;
+    padding-right:1em;
+}
+
+input,textarea{
+    display:block;
+    margin-bottom: 1em;
+}
+
+#mySubmit{
+    margin-left: 9.5em;
+}
+
+
+
